@@ -1,6 +1,10 @@
 services:
-  - type: web
-    name: gms
-    env: node
-    plan: free
-    startCommand: node .
+- type: web
+  name: another rizz
+  runtime: node
+  repo: https://github.com/FrogiesArcade/FrogiesArcade-v2-Portable
+  plan: free
+  region: oregon
+  buildCommand: npm i
+  startCommand: node index.js
+version: "1"
