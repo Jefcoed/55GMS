@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: gms
+    name: fiftyfiveyearsofmilitaryservice
     env: node
     plan: free
     startCommand: node .
